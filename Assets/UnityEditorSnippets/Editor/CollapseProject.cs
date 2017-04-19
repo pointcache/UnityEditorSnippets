@@ -8,7 +8,7 @@
 
     public static class CollapseProject {
 
-        [MenuItem("Edit/Collapse Project " + Hotkeys.COLLAPSEPROJECT)] // shortcut key F5 to Play (and exit playmode also)
+        [MenuItem("Edit/Collapse Project " + Hotkeys.COLLAPSE_PROJECT)] // shortcut key F5 to Play (and exit playmode also)
         static void collapseProject() {
             string assemblypath = UnityEditorInternal.InternalEditorUtility.GetEditorAssemblyPath();
             var assembly = System.Reflection.Assembly.LoadFrom(assemblypath);
