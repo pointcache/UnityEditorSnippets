@@ -3,6 +3,7 @@ Collection of different editor things that help with productivity
 
 ## FAQ
 Q:
+
 Correct me if I'm wrong, but how does this differer from the standard methods?
 Play (CTRL-P) Pause (CTRL-SHIFT-P) Collapse (ALT-Click arrow) Create Parent (select objects, then Game Object/Make Parent)
 Seems like this allready exists by default.
