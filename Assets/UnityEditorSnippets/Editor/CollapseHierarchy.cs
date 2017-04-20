@@ -24,14 +24,11 @@
                 openscenes.Add(EditorSceneManager.GetSceneAt(i).name);
             }
 
-
             var reloadneeded = type.GetField("m_TreeViewReloadNeeded", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
 
             type.InvokeMember("SetScenesExpanded", System.Reflection.BindingFlags.InvokeMethod | System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic, null, browser, new object[1] {openscenes });
             reloadneeded.SetValue(browser, true);
             type.InvokeMember("SyncIfNeeded", System.Reflection.BindingFlags.InvokeMethod | System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic, null, browser, null);
-
-
         }
     }
 }
