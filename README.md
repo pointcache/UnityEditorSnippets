@@ -20,6 +20,8 @@ All hotkeys are in Hotkey.cs file.
 * **Make first child** - moves to the top of hierarchy under current parent
 * **Make las child** - moves to the bottom of hierarchy under current parent
 * **Move up one level** - parents to the parent of the parent.
+* **Move up** - move up one position in hierarchy under same parent.
+* **Move down** - move down one position in hierarchy under same parent.
 
 ## Component (found in component context menu - gear icon)
 * **Move to top** - moves the component to the top
