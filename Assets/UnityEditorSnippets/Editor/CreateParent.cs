@@ -10,9 +10,9 @@
         /// This method attempts to creat a parent for selected child, it is not perfect and can fail in some edge cases
         /// but is undoable in case of error, needs more work.
         /// </summary>
-        [MenuItem(Hotkeys.SNIPPETS_ROOT_MENU + "CreateParent " + Hotkeys.CREATEPARENT)]
-        public static void createParent() {
-            var go = Selection.activeGameObject;
+        [MenuItem("GameObject/Create parent", false, -5)]
+        public static void createParent(MenuCommand command) {
+            var go = command.context as GameObject;
             if (go) {
                 var parent = new GameObject(go.name + "_root");
                 Undo.RegisterCreatedObjectUndo(parent, "Created parent");
@@ -32,13 +32,13 @@
                     parentRect.anchorMin = Vector2.zero;
                     parentRect.offsetMax = Vector2.zero;
                     parentRect.offsetMin = Vector2.zero;
+                    Undo.SetTransformParent(go.transform, parent.transform, "reparent");
                 }
                 else {
                     parent.transform.position = go.transform.position;
                     parent.transform.rotation = go.transform.rotation;
-                    go.transform.SetParent(parent.transform);
+                    Undo.SetTransformParent(go.transform, parent.transform, "reparent");
                 }
-                Undo.SetTransformParent(go.transform, parent.transform, "reparent");
             }
         }
 

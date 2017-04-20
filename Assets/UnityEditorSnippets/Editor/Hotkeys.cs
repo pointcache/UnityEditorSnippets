@@ -8,9 +8,5 @@
         public const string COLLAPSE_HIERARCHY = "_F4";
         public const string PLAYMODE = "_F5";
         public const string PAUSE = "_F1";
-        public const string CREATEPARENT = "_F12";
-
-
-        public const string SNIPPETS_ROOT_MENU = "Snippets/";
     }
 }
