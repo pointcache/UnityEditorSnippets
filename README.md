@@ -12,8 +12,8 @@ All hotkeys are in Hotkey.cs file.
 
 * **Play** - quick play mode hotkey
 * **Pause** 
-* **Collapse Project** - collapses all contents of the project window
-* **Collapse Hierarchy** - collapses hierarchy (scenes become uncollapsed, whoever works with multiscene fix this)
+* **Collapse Project** - collapses all contents of the project window **with a hotkey**
+* **Collapse Hierarchy** - collapses hierarchy (scenes become uncollapsed, whoever works with multiscene fix this) **with a hotkey**
 
 ## GameObject (found in gameobject context menu)
 * **Create Parent** - creates parent for the selected gameobject in scene.
