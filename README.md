@@ -14,6 +14,7 @@ All hotkeys are in Hotkey.cs file.
 * **Pause** 
 * **Collapse Project hotkey** - collapses all contents of the project window 
 * **Collapse Hierarchy hotkey** - collapses hierarchy (scenes become uncollapsed, whoever works with multiscene fix this)
+*Tip - if you collapsed but still have object selected, hover over hierarchy and press F - it will select and expand hierarchy to currently selected object.
 
 ## GameObject (found in gameobject context menu)
 * **Create Parent** - creates parent for the selected gameobject in scene.
