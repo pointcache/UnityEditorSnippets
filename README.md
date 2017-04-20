@@ -9,8 +9,8 @@ All hotkeys are in Hotkey.cs file.
 ## Contents
 
 **Editor**
-* PlayMode - quick play mode hotkey
-* Pause
+* Play - quick play mode hotkey
+* Pause 
 * Collapse Project - collapses all contents of the project window
 * Collapse Hierarchy - collapses hierarchy (scenes become uncollapsed, whoever works with multiscene fix this)
 
