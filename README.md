@@ -13,6 +13,8 @@ All hotkeys are in Hotkey.cs file.
 * Collapse Project - collapses all contents of the project window
 * Collapse Hierarchy - collapses hierarchy (not perfect because scenes become uncollapsed, whoever works with multiscene fix this)
 * Create Parent - creates parent for the selected gameobject in scene.
+* Move to top - adds a new entry to Component context menu(gear icon) that moves the component to the top
+* Move to bottom - adds a new entry to Component context menu(gear icon) that moves the component to the bottom
 
 More to come, feel free to add yours, just follow the same structure.
 
