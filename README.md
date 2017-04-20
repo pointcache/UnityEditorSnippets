@@ -13,6 +13,7 @@ All hotkeys are in Hotkey.cs file.
 * Pause
 * Collapse Project - collapses all contents of the project window
 * Collapse Hierarchy - collapses hierarchy (scenes become uncollapsed, whoever works with multiscene fix this)
+
 **GameObject** (found in gameobject context menu)
 * Create Parent - creates parent for the selected gameobject in scene.
 * Make first child - moves to the top of hierarchy under current parent
