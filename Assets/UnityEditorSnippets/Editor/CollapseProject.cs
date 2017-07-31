@@ -17,9 +17,9 @@
             var projectbrowser = projectbrowserfield.GetValue(type);
             var treestatefield = type.GetField("m_AssetTreeState", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
             var treestate = treestatefield.GetValue(projectbrowser);
-            var expandedIdsField = treestate.GetType().GetField("m_ExpandedIDs", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
+            var expandedIdsField = treestate.GetType().GetProperty("expandedIDs", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public );
             UnityEditorInternal.InternalEditorUtility.expandedProjectWindowItems = new int[0];
-            expandedIdsField.SetValue(treestate, new List<int>());
+            expandedIdsField.SetValue(treestate, new List<int>(), null);
             type.InvokeMember("OnProjectChanged", System.Reflection.BindingFlags.InvokeMethod | System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic, null, projectbrowser, null);
         }
 
