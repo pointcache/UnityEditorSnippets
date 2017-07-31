@@ -20,7 +20,7 @@ All hotkeys are in Hotkey.cs file.
 ## GameObject (found in gameobject context menu)
 * **Create Parent** - creates parent for the selected gameobject in scene.
 * **Make first child** - moves to the top of hierarchy under current parent
-* **Make las child** - moves to the bottom of hierarchy under current parent
+* **Make last child** - moves to the bottom of hierarchy under current parent
 * **Move up one level** - parents to the parent of the parent.
 * **Move up** - move up one position in hierarchy under same parent.
 * **Move down** - move down one position in hierarchy under same parent.
@@ -40,5 +40,5 @@ Seems like this allready exists by default.
 
 A:
 1. Play and pause exist yes, however mine allows you to set hotkeys, like F1, F5, which are much more convenient than breaking your hands  with default hotkeys.
-2. Collapse that you say requires you to click on a specific folder or and object, and doesnt collapse everything (everything). My hotkeys allow you to collapse completely all objects in Hierarchy, or all folders in Project window.
+2. Default collapse requires you to click on a specific folder or and object, and doesnt collapse **everything **. My hotkeys allow you to collapse completely all objects in Hierarchy, or all folders in Project window.
 3. Make parent simply makes one object parent of another (try it yourself), mine creates a new object, places it at the same position as selected, and parents selected to it. 
