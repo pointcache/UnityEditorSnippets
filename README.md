@@ -6,7 +6,11 @@ Collection of different editor things that help with productivity
 Every snippet is in separate file.
 All hotkeys are in Hotkey.cs file.
 
+## Menus
 
+* **Project settings** adds project settings duplicate menu on top.
+
+![](https://i.imgur.com/4WSFStk.png)
 
 ## Editor
 
