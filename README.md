@@ -1,3 +1,5 @@
+Updated to work with u2018.3.0b1 and higher, if you need previous version look for earlier commit.
+
 # UnityEditorSnippets
 Collection of different editor things that help with productivity
 
