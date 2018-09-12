@@ -1,4 +1,6 @@
 Updated to work with u2018.3.0b1 and higher, if you need previous version look for earlier commit.
+Since new unity introduces a lot of new hotkeys, and terrain hotkeys override most of function keys (F1, F2..)
+Either remap them in unity preferences, or change the hotkey file.
 
 # UnityEditorSnippets
 Collection of different editor things that help with productivity
