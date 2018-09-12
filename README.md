@@ -1,3 +1,7 @@
+Updated to work with u2018.3.0b1 and higher, if you need previous version look for earlier commit.
+Since new unity introduces a lot of new hotkeys, and terrain hotkeys override most of function keys (F1, F2..)
+Either remap them in unity preferences, or change the hotkey file.
+
 # UnityEditorSnippets
 Collection of different editor things that help with productivity
 
@@ -18,6 +22,7 @@ All hotkeys are in Hotkey.cs file.
 * **Pause** 
 * **Collapse Project hotkey** - collapses all contents of the project window 
 * **Collapse Hierarchy hotkey** - collapses hierarchy (scenes become uncollapsed, whoever works with multiscene fix this)
+* **Create folder for selected** - will create a folder with the same name for selected asset in project window (found in context menu)
 
 *Tip - if you collapsed but still have object selected, hover over hierarchy and press F - it will select and expand hierarchy to currently selected object.*
 
