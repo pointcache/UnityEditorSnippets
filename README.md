@@ -18,6 +18,7 @@ All hotkeys are in Hotkey.cs file.
 * **Pause** 
 * **Collapse Project hotkey** - collapses all contents of the project window 
 * **Collapse Hierarchy hotkey** - collapses hierarchy (scenes become uncollapsed, whoever works with multiscene fix this)
+* **Create folder for selected** - will create a folder with the same name for selected asset in project window (found in context menu)
 
 *Tip - if you collapsed but still have object selected, hover over hierarchy and press F - it will select and expand hierarchy to currently selected object.*
 
