@@ -5,7 +5,7 @@
     using UnityEditor;
 
     public class Pause {
-        [MenuItem("Edit/Run "+ Hotkeys.PAUSE)] 
+        [MenuItem("Edit/PauseHotkey "+ Hotkeys.PAUSE)] 
         static void PauseGame() {
             EditorApplication.ExecuteMenuItem("Edit/Pause");
         }
