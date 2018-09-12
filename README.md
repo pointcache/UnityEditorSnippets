@@ -14,7 +14,7 @@ All hotkeys are in Hotkey.cs file.
 
 * **Project settings** adds project settings duplicate menu on top.
 
-![](https://i.imgur.com/4WSFStk.png)
+![](https://i.imgur.com/NmbJTjT.png)
 
 ## Editor
 
