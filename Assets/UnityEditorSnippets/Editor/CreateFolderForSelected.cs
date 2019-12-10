@@ -11,13 +11,26 @@
     public static class CreateFolderForSelected
     {
 
+        static HashSet<Type> ignoreTypes = new HashSet<Type>()
+        {
+            typeof(UnityEditor.DefaultAsset)
+        };
+
         [MenuItem("Assets/Make folder for")]
         static void createFolderForSelected()
         {
 
             var target = Selection.activeObject;
+            if (target == null)
+                return;
 
-            string path = AssetDatabase.GetAssetOrScenePath(target);
+            if (!AssetDatabase.IsMainAsset(target))
+                return;
+
+            if (ignoreTypes.Contains(target.GetType()))
+                return;
+
+            string path = AssetDatabase.GetAssetPath(target);
             string ext = Path.GetExtension(path);
             string parentDir = path.Remove(path.LastIndexOf('/'));
             string newpath = path.Remove(path.LastIndexOf('.')) + "/" + target.name + ext;

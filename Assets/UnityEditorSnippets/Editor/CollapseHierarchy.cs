@@ -7,7 +7,7 @@
     using UnityEditor.SceneManagement;
 
     public static class CollapseHierarchy {
-        [MenuItem("Edit/Collapse Hierarchy " + Hotkeys.COLLAPSE_HIERARCHY)]
+        [MenuItem("Edit/Collapse Hierarchy ")]
         static void collapseHierarchy() {
 
             string assemblypath = UnityEditorInternal.InternalEditorUtility.GetEditorAssemblyPath();
